@@ -61,5 +61,10 @@
                 "Indonesia": "Laravolt\\Indonesia\\Facade"
             }
         }
-    }
+    },
+
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/ricidelphy/indonesia"
+    }]
 }
