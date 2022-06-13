@@ -1,5 +1,5 @@
 {
-    "name": "laravolt/indonesia",
+    "name": "ricidelphy/indonesia",
     "description": "Package Laravel yang berisi data Provinsi, Kabupaten/Kota, Kecamatan, dan Keluarahan/Desa di seluruh Indonesia.",
     "keywords": [
         "laravel",
@@ -28,12 +28,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Laravolt\\Indonesia\\": "src/"
+            "Ricidelphy\\Indonesia\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Laravolt\\Indonesia\\Test\\": "tests/"
+            "Ricidelphy\\Indonesia\\Test\\": "tests/"
         }
     },
     "require": {
@@ -55,10 +55,10 @@
         },
         "laravel": {
             "providers": [
-                "Laravolt\\Indonesia\\ServiceProvider"
+                "Ricidelphy\\Indonesia\\ServiceProvider"
             ],
             "aliases": {
-                "Indonesia": "Laravolt\\Indonesia\\Facade"
+                "Indonesia": "Ricidelphy\\Indonesia\\Facade"
             }
         }
     },
